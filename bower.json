@@ -1,6 +1,6 @@
 {
   "name": "inuit-page",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "https://github.com/inuitcss/base.page",
   "authors": [
     "Harry Roberts <harry@csswizardry.com>"
@@ -12,5 +12,8 @@
     "oocss",
     "css"
   ],
-  "license": "Apache"
+  "license": "Apache",
+  "dependencies": {
+    "inuit-defaults": "~0.1.0"
+  }
 }
