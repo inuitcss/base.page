@@ -7,3 +7,7 @@ global, page-level aspects such at the project’s base `font-size` and
 Install using Bower:
 
     $ bower install --save inuit-page
+
+Install using npm:
+
+    $ npm install --save inuit-page
