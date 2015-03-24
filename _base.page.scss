@@ -13,8 +13,6 @@
  *    scrollbars naturally.
  * 3. Ensure the page always fills at least the entire height of the viewport.
  * 4. Prevent certain mobile browsers from automatically zooming fonts.
- * 5. Fonts on OSX will look more consistent with other systems that do not
- *    render text using sub-pixel anti-aliasing.
  */
 html {
     font-size: ($inuit-base-font-size / 16px) * 1em; /* [1] */
@@ -25,6 +23,4 @@ html {
     min-height: 100%; /* [3] */
     -webkit-text-size-adjust: 100%; /* [4] */
         -ms-text-size-adjust: 100%; /* [4] */
-    -moz-osx-font-smoothing: grayscale; /* [5] */
-     -webkit-font-smoothing: antialiased; /* [5] */
 }
